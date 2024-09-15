@@ -1,0 +1,4 @@
+from prompt_generators.miniwob_prompt_generator import MiniWobPromptGenerator
+from prompt_generators.miniwob_som_prompt_generator import MiniWobSoMPromptGenerator
+from prompt_generators.webarena_som_prompt_generator import WebArenaSoMPromptGenerator
+from prompt_generators.omniact_cot_prompt_generator import OmniactCotPromptGenerator

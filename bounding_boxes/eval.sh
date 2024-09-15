@@ -1,0 +1,2 @@
+# python scripts/evaluate_faster_rcnn.py --max_iters 50000 --output_dir outputs/comcrawl_200k_lr_0.0025_unfrozen --base_lr 0.0025 --dataset_path /home/waynechi/dev/gui-agent/bounding_boxes/datasets/comcrawl_2_small/coco{}.json --img_path /
+python scripts/evaluate_faster_rcnn.py --max_iters 50000 --output_dir outputs/comcrawl_200k_lr_0.0025_unfrozen --base_lr 0.0025 --dataset_path /home/waynechi/dev/gui-agent/bounding_boxes/datasets/comcrawl_2_large/coco{}.json --img_path /

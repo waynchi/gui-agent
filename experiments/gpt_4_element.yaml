@@ -1,0 +1,17 @@
+experiment_name: "gpt_4_element"
+zeno_project_name: "llm_miniwob_2"
+e2e_max_retries: 1
+rate_limit_max_retries: 5
+agent_predict_max_retries: 1
+model_name: "gpt-4"
+action_types: "click_element_and_type"
+token_limit: 7000
+environment_type: "miniwob"
+prompt_generator_type: "miniwob"
+response_parser_type: "miniwob"
+state_type: "dom"
+agent_type: "gpt_chat"
+max_steps: 15
+merge_iou_threshold: 0.4
+confidence_threshold: 0.2
+repeat_tolerance: 3

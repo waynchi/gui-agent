@@ -1,0 +1,15 @@
+experiment_name: "tests"
+zeno_project_name: "None"
+e2e_max_retries: 1
+rate_limit_max_retries: 1
+agent_predict_max_retries: 1
+model_name: "gpt-3.5-turbo-1106"
+# Check the environments for the action types
+action_types: "click_element_and_type"
+token_limit: 14500
+environment_type: "miniwob"
+prompt_generator_type: "miniwob"
+response_parser_type: "miniwob"
+state_type: "dom" # ["dom", "dom_image", "webui_image"]
+agent_type: "gpt_chat"
+max_steps: 1

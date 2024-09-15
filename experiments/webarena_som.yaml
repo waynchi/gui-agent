@@ -1,0 +1,15 @@
+experiment_name: "webarena_som"
+zeno_project_name: "llm_webarena"
+e2e_max_retries: 1
+rate_limit_max_retries: 5
+agent_predict_max_retries: 1
+model_name: "gpt-4-vision-preview"
+action_types: "click_coords_and_type"
+token_limit: 7000
+environment_type: "webarena"
+prompt_generator_type: "webarena_som"
+response_parser_type: "webarena_som"
+state_type: "dom_image"
+agent_type: "gpt_som"
+max_steps: 20
+repeat_tolerance: 3

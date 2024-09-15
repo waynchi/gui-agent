@@ -1,0 +1,26 @@
+experiment_name: "default"
+zeno_project_name: "llm_miniwob_2"
+e2e_max_retries: 1
+rate_limit_max_retries: 5
+agent_predict_max_retries: 1
+model_name: "gpt-3.5-turbo-1106"
+# Check the environments for the action types
+action_types: "click_element_and_type"
+token_limit: 14500
+environment_type: "miniwob" # ["webarena", "vwa, "miniwob"]
+prompt_generator_type: "miniwob"
+response_parser_type: "miniwob"
+state_type: "dom" # ["dom", "dom_image", "webui_image"]
+agent_type: "gpt_chat"
+max_steps: 30
+merge_iou_threshold: 0.4
+confidence_threshold: 0.2
+repeat_tolerance: 3
+allow_interaction_with_text: False
+website_types: []
+env_start_idx: 0
+random_seed: 777
+use_tags: "gt"
+use_ids: "gt"
+no_img: False
+ocr_only: False

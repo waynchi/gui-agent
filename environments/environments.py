@@ -1,0 +1,3 @@
+from environments.miniwob_environment import MiniWobEnvironment
+from environments.webarena_environment import WebArenaEnvironment
+from environments.omniact_environment import OmniactEnvironment
